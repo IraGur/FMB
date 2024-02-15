@@ -41,7 +41,7 @@ export default function UserList(props) {
             <div className="border w-full ">
                <Table hoverable>
                   <Table.Head className=" text-greyviolet2 text-md dark:border-neutral-500">
-                     <Table.HeadCell className=" bg-greyviolet3">
+                     <Table.HeadCell className="bg-greyviolet3">
                         Full name
                      </Table.HeadCell>
                      <Table.HeadCell className=" bg-greyviolet3">
