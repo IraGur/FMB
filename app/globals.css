@@ -1,0 +1,58 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   font-size: 14px;
+}
+
+.navbar {
+   display: flex;
+   background-color: #ccc;
+   margin-bottom: 1em;
+}
+
+.navbar > * {
+   padding: 0.5em;
+}
+
+.calendar-container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.fc-daygrid-day-frame:has(.bg-home) {
+   background-color: #afd1a3;
+}
+
+.fc-daygrid-day-frame:has(.bg-office) {
+   background-color: #ecbf62;
+}
+.fc-daygrid-day-frame:has(.bg-client) {
+   background-color: #90c0c4;
+}
+
+.fc-daygrid-day-frame:has(.bg-absent) {
+   background-color: #ff8b8f;
+}
+.home {
+   width: 30px;
+   height: 30px;
+
+   background-color: #afd1a3;
+}
+.office {
+   width: 30px;
+   height: 30px;
+   background-color: #ecbf62;
+}
+.client {
+   width: 30px;
+   height: 30px;
+   background-color: #90c0c4;
+}
+.headerToolbar.prev {
+   background-color: #90c0c4;
+}

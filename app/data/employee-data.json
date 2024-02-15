@@ -1,0 +1,165 @@
+
+[
+  {
+    "userId": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "role": "Manager",
+    "address": "123 Main St, Cityville",
+    "status": "eligible"
+  },
+  {
+    "userId": 2,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "role": "Developer",
+    "address": "456 Oak St, Townsville",
+    "status": "eligible"
+  },
+  {
+    "userId": 3,
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "role": "Designer",
+    "address": "789 Maple St, Villagetown",
+    "status": "not eligible"
+  },
+  {
+    "userId": 4,
+    "firstName": "Eva",
+    "lastName": "Anderson",
+    "role": "Analyst",
+    "address": "101 Pine St, Hamletville",
+    "status": "eligible"
+  },
+  {
+    "userId": 5,
+    "firstName": "Chris",
+    "lastName": "Brown",
+    "role": "Manager",
+    "address": "202 Cedar St, Suburbia",
+    "status": "not eligible"
+  },
+  {
+    "userId": 6,
+    "firstName": "Mia",
+    "lastName": "Miller",
+    "role": "Developer",
+    "address": "303 Elm St, Countryside",
+    "status": "eligible"
+  },
+  {
+    "userId": 7,
+    "firstName": "David",
+    "lastName": "Clark",
+    "role": "Designer",
+    "address": "404 Birch St, Riverside",
+    "status": "not eligible"
+  },
+  {
+    "userId": 8,
+    "firstName": "Sophia",
+    "lastName": "White",
+    "role": "Analyst",
+    "address": "505 Walnut St, Lakeside",
+    "status": "eligible"
+  },
+  {
+    "userId": 9,
+    "firstName": "Alex",
+    "lastName": "Martin",
+    "role": "Manager",
+    "address": "606 Spruce St, Mountainside",
+    "status": "not eligible"
+  },
+  {
+    "userId": 10,
+    "firstName": "Olivia",
+    "lastName": "Taylor",
+    "role": "Developer",
+    "address": "707 Oak St, Hilltop",
+    "status": "eligible"
+  },
+  {
+    "userId": 11,
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "role": "Designer",
+    "address": "808 Maple St, Cliffside",
+    "status": "not eligible"
+  },
+  {
+    "userId": 12,
+    "firstName": "Emma",
+    "lastName": "Davis",
+    "role": "Analyst",
+    "address": "909 Pine St, Seaside",
+    "status": "eligible"
+  },
+  {
+    "userId": 13,
+    "firstName": "Daniel",
+    "lastName": "Anderson",
+    "role": "Manager",
+    "address": "111 Cedar St, Mountainside",
+    "status": "not eligible"
+  },
+  {
+    "userId": 14,
+    "firstName": "Ava",
+    "lastName": "Wilson",
+    "role": "Developer",
+    "address": "222 Elm St, Lakeside",
+    "status": "eligible"
+  },
+  {
+    "userId": 15,
+    "firstName": "William",
+    "lastName": "Johnson",
+    "role": "Designer",
+    "address": "333 Birch St, Countryside",
+    "status": "not eligible"
+  },
+  {
+    "userId": 16,
+    "firstName": "Isabella",
+    "lastName": "Moore",
+    "role": "Analyst",
+    "address": "444 Walnut St, Riverside",
+    "status": "eligible"
+  },
+  {
+    "userId": 17,
+    "firstName": "James",
+    "lastName": "Thomas",
+    "role": "Manager",
+    "address": "555 Spruce St, Hamletville",
+    "status": "not eligible"
+  },
+  {
+    "userId": 18,
+    "firstName": "Sophie",
+    "lastName": "Hill",
+    "role": "Developer",
+    "address": "666 Oak St, Suburbia",
+    "status": "eligible"
+  },
+  {
+    "userId": 19,
+    "firstName": "Ryan",
+    "lastName": "Ward",
+    "role": "Designer",
+    "address": "777 Maple St, Villagetown",
+    "status": "not eligible"
+  },
+  {
+    "userId": 20,
+    "firstName": "Grace",
+    "lastName": "Baker",
+    "role": "Analyst",
+    "address": "888 Pine St, Townsville",
+    "status": "eligible"
+  }
+]
+
+

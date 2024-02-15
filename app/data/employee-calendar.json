@@ -1,0 +1,153 @@
+[
+  {
+    "userId": 1,
+    "date": "2024-02-01",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-02",
+    "workedAt": "on-site-client"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-03",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-04",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-05",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-06",
+    "workedAt": "on-site-client"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-07",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-08",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-09",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-10",
+    "workedAt": "on-site-client"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-11",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-12",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-13",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-14",
+    "workedAt": "on-site-client"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-15",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-16",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-17",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-18",
+    "workedAt": "on-site-client"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-19",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-20",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-21",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-22",
+    "workedAt": "on-site-client"
+  
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-23",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-24",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-25",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-26",
+    "workedAt": "on-site-client"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-27",
+    "workedAt": "home"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-28",
+    "workedAt": "absent"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-29",
+    "workedAt": "on-site-office"
+  },
+  {
+    "userId": 1,
+    "date": "2024-02-30",
+    "workedAt": "on-site-client"
+  }
+]
