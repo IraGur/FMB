@@ -27,9 +27,9 @@ export default function Header() {
    return (
       <div className="flex">
          <div className="grow">
-            <Link href={"/"}>Home</Link>
+            {/* <Link href={"/"}>Home</Link>
             <Link href={"/dashboard"}>Dashboard</Link>
-            <Link href={"/calendar"}>Calendar</Link>
+            <Link href={"/calendar"}>Calendar</Link> */}
          </div>
          <div>
             <Button
