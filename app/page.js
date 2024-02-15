@@ -6,7 +6,7 @@ import { UserContext } from "./context/userContext";
 export default function Home() {
    const router = useRouter();
    const [formData, setFormData] = useState({
-      email: "eva@yahoo.com",
+      email: "anna@example.com",
       password: "123456",
    });
    const [error, setError] = useState();
@@ -45,7 +45,7 @@ export default function Home() {
    };
 
    return (
-      <div className="min-h-full flex items-center justify-center mt-32 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
          <div className="max-w-md w-full space-y-8">
             <div>
                <h2 className="mt-6 text-center text-3xl font-extrabold text-grey-900">
@@ -77,7 +77,7 @@ export default function Home() {
                </label>
                <button
                   type="button"
-                  className="bg-blue-500 text-white p-2 rounded-md w-full"
+                  className="bg-greyviolet3 hover:bg-greyviolet text-white p-2 rounded-md w-full"
                   onClick={login}
                >
                   Log In

@@ -1,5 +1,5 @@
 "use client";
-import { TextInput, Modal, Button, Select } from "flowbite-react";
+import { TextInput, Modal, Button } from "flowbite-react";
 import { useEffect, useState } from "react";
 
 export default function AddressForm({ openModal, setOpenModal, setAddresses }) {
@@ -26,6 +26,7 @@ export default function AddressForm({ openModal, setOpenModal, setAddresses }) {
          if (data) {
             setOpenModal(false);
             setAddresses(null);
+            setFormData({});
          }
       } catch (error) {
          console.error(error);
@@ -69,7 +70,9 @@ export default function AddressForm({ openModal, setOpenModal, setAddresses }) {
    return (
       /* Employee List */
       <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
-         <Modal.Header>Add New Client Address</Modal.Header>
+         <Modal.Header className="text-red bg-greyvioletl p-2 rounded-t-lg">
+            Add New Client Address
+         </Modal.Header>
          <Modal.Body>
             <div>
                <div className="space-y-6">
@@ -108,7 +111,11 @@ export default function AddressForm({ openModal, setOpenModal, setAddresses }) {
             </div>
          </Modal.Body>
          <Modal.Footer>
-            <Button onClick={createAddress} className="p-2 rounded-md w-full">
+            <Button
+               onClick={createAddress}
+               className="bg-greyviolet3 hover:bg-greyviolet
+p-2 rounded-md w-full"
+            >
                Save
             </Button>
          </Modal.Footer>

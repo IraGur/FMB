@@ -77,7 +77,7 @@ export default function CalendarPage() {
                homeToOfficeDistance
             );
 
-            isEligible = homeToOfficeDistance > 10000;
+            isEligible = homeToOfficeDistance <= 10000;
          } else {
             const clientAddtess = clientAddresses.find(
                (a) => a._id === mostWorkedAt.addressId
@@ -93,7 +93,7 @@ export default function CalendarPage() {
                homeToClientDistance
             );
 
-            isEligible = homeToClientDistance > 10000;
+            isEligible = homeToClientDistance <= 10000;
          }
       }
       setIsUserEligible(isEligible);
@@ -231,12 +231,16 @@ export default function CalendarPage() {
                </div>
             </Modal.Body>
          </Modal>
-         <div className="selected-day flex space-x-4 mt-4 object-center">
+         <div className="selected-day flex space-x-4 mt-4 content-center object-center">
             <div className="home rounded-full"></div>
-            <p>home</p>
-            <div className="office rounded-full"></div> <p>office</p>
-            <div className="client rounded-full"></div> <p>client</p>
-            <div className="border bg-blue-400 p-2">
+            <div>home</div>
+            <div className="office rounded-full"></div> <div>office</div>
+            <div className="client rounded-full"></div> <div>client</div>
+            <div
+               className={`border rounded-3xl p-2 ${
+                  isUserEligible ? "bg-eligible" : "bg-notEligible"
+               }`}
+            >
                {isUserEligible ? "Eligible" : "Not eligible"}
             </div>
          </div>

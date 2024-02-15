@@ -40,17 +40,17 @@ export default function UserList(props) {
          <div className="flex overflow-x-auto w-full ">
             <div className="border w-full ">
                <Table hoverable>
-                  <Table.Head className="text-greyviolet2 text-lg dark:border-neutral-500">
-                     <Table.HeadCell className="bg-slate-800">
+                  <Table.Head className=" text-greyviolet2 text-md dark:border-neutral-500">
+                     <Table.HeadCell className=" bg-greyviolet3">
                         Full name
                      </Table.HeadCell>
-                     <Table.HeadCell className="bg-slate-800">
+                     <Table.HeadCell className=" bg-greyviolet3">
                         Role
                      </Table.HeadCell>
-                     <Table.HeadCell className="bg-slate-800">
+                     <Table.HeadCell className=" bg-greyviolet3">
                         Email
                      </Table.HeadCell>
-                     <Table.HeadCell className="bg-slate-800">
+                     <Table.HeadCell className=" bg-greyviolet3">
                         Status
                      </Table.HeadCell>
                   </Table.Head>
@@ -61,7 +61,7 @@ export default function UserList(props) {
                            <Table.Row
                               onClick={() => handleRowClick(user._id)}
                               key={index}
-                              className="bg-white dark:border-gray-700 dark:bg-gray-800 hover:bg-greyvioletl  dark:hover:bg-gray-20"
+                              className="bg-white dark:border-gray-700 dark:bg-gray-800 hover:bg-greyvioletl "
                            >
                               <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
                                  {`${user.firstName} ${user.lastName}`}

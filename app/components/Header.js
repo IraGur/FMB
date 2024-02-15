@@ -32,7 +32,12 @@ export default function Header() {
             <Link href={"/calendar"}>Calendar</Link>
          </div>
          <div>
-            <Button onClick={logout}>Logout</Button>
+            <Button
+               className="bg-greyviolet hover:bg-greyviolet2"
+               onClick={logout}
+            >
+               Logout
+            </Button>
          </div>
       </div>
    );
