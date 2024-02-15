@@ -70,7 +70,7 @@ export default function AddressForm({ openModal, setOpenModal, setAddresses }) {
    return (
       /* Employee List */
       <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
-         <Modal.Header className="text-red bg-greyvioletl p-2 rounded-t-lg">
+         <Modal.Header className="bg-greyvioletl p-2 rounded-t-lg">
             Add New Client Address
          </Modal.Header>
          <Modal.Body>

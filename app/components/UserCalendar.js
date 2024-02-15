@@ -67,6 +67,7 @@ export default function UserCalendar(props) {
             dayCellContent={CustomCell}
             {...restProps}
             aspectRatio={2.2}
+            firstDay={1}
          />
          {/* вся таблица */}
       </div>
