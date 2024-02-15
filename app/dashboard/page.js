@@ -47,7 +47,7 @@ export default function Dashboard() {
                   />
                   {selectedUserId && (
                      <UserCalendar
-                        className="flex-[0_0_500px]"
+                        className="size-96 flex-[0_0_500px]"
                         userId={selectedUserId}
                      />
                   )}

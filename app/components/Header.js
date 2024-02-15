@@ -10,7 +10,7 @@ export default function Header() {
    const router = useRouter();
    const pathname = usePathname();
 
-   const { setUser } = useContext(UserContext);
+   const { user, setUser } = useContext(UserContext);
    const { setCalendarData } = useContext(CalendarContext);
 
    const logout = () => {
@@ -27,17 +27,19 @@ export default function Header() {
    return (
       <div className="flex">
          <div className="grow">
-            {/* <Link href={"/"}>Home</Link>
+            {/*  <Link href={"/"}>Home</Link>
             <Link href={"/dashboard"}>Dashboard</Link>
             <Link href={"/calendar"}>Calendar</Link> */}
          </div>
          <div>
-            <Button
-               className="bg-greyviolet hover:bg-greyviolet2"
-               onClick={logout}
-            >
-               Logout
-            </Button>
+            {user && (
+               <Button
+                  className="bg-greyviolet hover:bg-greyviolet2"
+                  onClick={logout}
+               >
+                  Logout
+               </Button>
+            )}
          </div>
       </div>
    );
